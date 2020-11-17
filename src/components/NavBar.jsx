@@ -6,7 +6,7 @@ import "../style/Default-style.css"
 
 const NavBar = () => {
     return(
-        <nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor: "rgba(84, 204, 255, 0.7)"}}>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light " style={{backgroundColor: "rgba(84, 204, 255, 0.7)"}}>
             
             <img src={logo}  width="36px" height="36px" style={{margin:"10px"}} class="d-inline-block align-top"/>
             <a className="navbar-brand" href="#" style={{color:"#ffffff", fontWeight:"bold", fontSize:"18px"}}>portifol.io</a>
@@ -21,9 +21,7 @@ const NavBar = () => {
             <li className="nav-item active">
               
             </li>
-          {/* <li className="nav-item">
-              <a className="nav-link disabled" href="#">Desativado</a>
-            </li> */}
+
           </ul>
 
           <ul className="navbar-nav">

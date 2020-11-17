@@ -6,14 +6,20 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from "./components/NavBar"
+import HeroSection from "./components/HeroSection"
+import AboutUs from "./components/AboutUs"
+import RegisterPage from "./components/RegisterPage"
 
+import "./style/Default-style.css"
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar/>
-    <div>Index page - renderiza home até register page</div>
+    <HeroSection/>
+    <AboutUs/> 
+    <RegisterPage/>
     
   </React.StrictMode>,
   document.getElementById('root')
