@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
     width: 100vw;
     max-width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items:    center;
 
@@ -18,6 +18,7 @@ const StyledContainer = styled.div`
 
 const Styledh1 = styled.h1`
 
+    width: auto;
     font-size: 90px;
     font-weight: 600;
 

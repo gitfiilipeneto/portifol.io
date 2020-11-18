@@ -10,7 +10,7 @@ import HeroSection from "./components/HeroSection"
 import AboutUs from "./components/AboutUs"
 import RegisterPage from "./components/RegisterPage"
 
-import "./style/Default-style.css"
+// import "./style/Default-style.css"
 
 
 
