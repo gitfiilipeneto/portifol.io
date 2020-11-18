@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+
+
 // colocar o fluxograma e texto
 
 const StyledContainer = styled.div`
@@ -13,8 +15,10 @@ const StyledContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+   
 
 `
+
 
 
 const AboutUs = () => {
