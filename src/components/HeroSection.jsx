@@ -23,29 +23,46 @@ const StyledContainer = styled.div`
     
 `
 
+const StyledImg = styled.img`
+    
+    background-image: url(${logo});
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+
+`
+
+const StyledDiv = styled.div`
+
+    width: 650px;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    left: 550px;
+    top: 320px;
+`
+
 const Styledh1 = styled.h1`
 
-    width: 800px;
-    font-size: 120px;
-    font-weight: 600;
-
+    font-size: 96px;
+    font-weight: 500;
 `
 
 
 const StyledText = styled.p`
 
-    width: 800px;
-    font-size: 50px;
-    font-weight: 0;
+    font-size: 36px;
+    font-weight: 200;
 `
 
 const HeroSection = () => {
     return (
         <StyledContainer>
-            <div>
+            <StyledImg/>
+            <StyledDiv>
                 <Styledh1>portifol.io</Styledh1>
                 <StyledText>Revolucione agora a forma como você monta e contrata equipes!</StyledText>
-            </div>    
+            </StyledDiv>    
         </StyledContainer>
     )
 }
