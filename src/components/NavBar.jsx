@@ -6,10 +6,10 @@ import "../style/Default-style.css"
 
 const NavBar = () => {
     return(
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light " style={{backgroundColor: "rgba(84, 204, 255, 0.7)"}}>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light " style={{backgroundColor:"unset"}}>
             
-            <img src={logo}  width="36px" height="36px" style={{margin:"10px"}} class="d-inline-block align-top"/>
-            <a className="navbar-brand" href="#" style={{color:"#ffffff", fontWeight:"bold", fontSize:"18px"}}>portifol.io</a>
+            {/* <img src={logo}  width="36px" height="36px" style={{margin:"10px"}} class="d-inline-block align-top"/>
+            <a className="navbar-brand" href="#" style={{color:"black", fontWeight:"bold", fontSize:"18px"}}>portifol.io</a> */}
               
             
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -19,13 +19,14 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
+            <a className="nav-link">teste</a>
               
             </li>
 
           </ul>
 
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item" >
               <a className="nav-link">teste</a>
             </li>
           <li className="nav-item">

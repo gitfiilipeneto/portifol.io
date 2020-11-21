@@ -9,17 +9,19 @@ import NavBar from "./components/NavBar"
 import HeroSection from "./components/HeroSection"
 import AboutUs from "./components/AboutUs"
 import RegisterPage from "./components/RegisterPage"
+import ComoFunciona from './components/HowItWorks';
 
-// import "./style/Default-style.css"
+import "./style/Default-style.css"
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar/>
+    {/* <NavBar/> */}
     <HeroSection/>
-    <AboutUs/> 
-    <RegisterPage/>
+    {/* <AboutUs/>
+    <ComoFunciona/> 
+    <RegisterPage/> */}
     
   </React.StrictMode>,
   document.getElementById('root')
