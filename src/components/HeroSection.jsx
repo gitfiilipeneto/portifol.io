@@ -30,13 +30,45 @@ const StyledHero = styled.div`
     background-attachment: fixed;
     background-position: right;
 
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+    
+
 
     @media (max-width: 765px){
 
         display: flex;
         justify-content: center;
         items-align: center;
-        background-position: left top;
+        background-position: right;
             
     }
 `
@@ -46,15 +78,16 @@ const StyledDiv = styled.div`
     width: 650px;
     height: auto;
     text-align: justify;
+
+
     @media (max-width: 765px){
         justify-content: center;
         content-align: center;
         text-align: center;
         padding: 10px;
-        & p {
-            
-        }
     }
+
+}
  
     
 `
@@ -63,6 +96,31 @@ const Styledh1 = styled.h1`
 
     font-size: 96px;
     font-weight: 500;
+
+    //animação
+    overflow: hidden; 
+    border-right: 1px solid; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: auto ;
+    animation: 
+      typing 2.5s steps(44, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #4BB8E6; }
+  }
+
+
     @media (max-width: 765px){
         font-size: 40px;
     }
