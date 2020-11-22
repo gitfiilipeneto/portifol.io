@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from "./components/NavBar"
-import HeroSection from "./components/HeroSection"
+import NewHero from './components/NewHero';
 import AboutUs from "./components/AboutUs"
 import RegisterPage from "./components/RegisterPage"
 import ComoFunciona from './components/HowItWorks';
@@ -15,10 +15,12 @@ import "./style/Default-style.css"
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <NavBar/> */}
-    <HeroSection/>
+    <NewHero/>
+    
     {/* <AboutUs/>
     <ComoFunciona/> 
     <RegisterPage/> */}
