@@ -19,10 +19,6 @@ const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
 
-    @media (max-width: 779px){
-       
-    }
-
 `
 
 const StyledCard = styled.div`
@@ -58,7 +54,7 @@ height: auto;
 padding: 20px;
 @media (max-width: 779px){
     width: auto;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     text-align: center;
 }
