@@ -21,9 +21,9 @@ ReactDOM.render(
     {/* <NavBar/> */}
     <NewHero/>
     
-    {/* <AboutUs/>
     <ComoFunciona/> 
-    <RegisterPage/> */}
+    {/* <AboutUs/> */}
+    {/* <RegisterPage/> */}
     
   </React.StrictMode>,
   document.getElementById('root')
