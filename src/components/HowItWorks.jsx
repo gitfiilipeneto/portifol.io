@@ -70,7 +70,7 @@ const ComoFunciona = () => {
             </StyledCard>
             <StyledCard>
                 <StyledImg src = {networking}/>
-                <StyledText>A plataforma avalia os perfis cadastrados e possibilita montar o melhor time.</StyledText>
+                <StyledText>A plataforma avalia os perfis cadastrados e possibilita a formação do melhor time.</StyledText>
             </StyledCard>
             <StyledCard>
                 <StyledImg src = {enterprise}/>
