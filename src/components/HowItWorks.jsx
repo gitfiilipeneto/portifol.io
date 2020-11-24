@@ -64,6 +64,7 @@ padding: 20px;
 const ComoFunciona = () => {
     return(
         <StyledContainer>
+            
             <StyledCard>
                 <StyledImg src = {user}/>
                 <StyledText>Pessoas de diversas áreas pré cadastradas na plataforma!</StyledText>
