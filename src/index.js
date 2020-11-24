@@ -10,6 +10,7 @@ import NewHero from './components/NewHero';
 import AboutUs from "./components/AboutUs"
 import RegisterPage from "./components/RegisterPage"
 import ComoFunciona from './components/HowItWorks';
+import Contador from './components/Contador';
 
 import "./style/Default-style.css"
 
@@ -20,8 +21,8 @@ ReactDOM.render(
   <React.StrictMode>
     <ScrollArrow/>
     <NewHero/>
-    
     <ComoFunciona/> 
+    <Contador/>
     {/* <AboutUs/> */}
     {/* <RegisterPage/> */}
     
