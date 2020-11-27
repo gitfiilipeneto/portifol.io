@@ -56,7 +56,7 @@ const Contador = () => {
     return(
     <StyledContainer>
       <StyledParagraph>Etapa de pré registro</StyledParagraph>
-      <Countdown date={'2020-11-27T12:00:00'} renderer={renderer} />
+      <Countdown date={'2020-11-30T12:00:00'} renderer={renderer} />
     </StyledContainer>
     )
 
