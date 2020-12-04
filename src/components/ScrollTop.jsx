@@ -19,9 +19,9 @@ const StyledBtn = styled.div`
     transition: opacity 0.4s;
     opacity: 0.5;
  
-//   .scrollTop:hover{
-//     opacity: 1;
-//   }
+  // .scrollTop:hover{
+  //   opacity: 1;
+  // }
   
   @keyframes fadeIn {
     0% {

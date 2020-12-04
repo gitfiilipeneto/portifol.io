@@ -13,6 +13,7 @@ import ComoFunciona from './components/HowItWorks';
 import Contador from './components/Contador';
 
 import "./style/Default-style.css"
+import ContactInfo from './components/ContactUs';
 
 
 
@@ -22,7 +23,8 @@ ReactDOM.render(
     <ScrollArrow/>
     <NewHero/>
     <ComoFunciona/> 
-    <Contador/>
+    <ContactInfo/>
+    {/* <Contador/> */}
     {/* <AboutUs/> */}
     {/* <RegisterPage/> */}
     
