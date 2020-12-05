@@ -8,12 +8,12 @@ import instagram from '../images/instagram.png'
 
 const StyledContainer = styled.div`
     width: 100vw;
+    max-width:100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
 `
 
 const Img = styled.img`
@@ -21,6 +21,8 @@ const Img = styled.img`
     width: 70px; 
     height: 70px;
     margin: 30px;
+    // padding: 5px;
+
 `
 
 const ContactInfo = () => {
