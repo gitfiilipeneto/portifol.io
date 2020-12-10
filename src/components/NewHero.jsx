@@ -149,6 +149,7 @@ const StyledText = styled.p`
     @media (max-width: 765px){
         font-size: 18px;
         font-weight: 350;
+        padding: 5px;
     }
 `
 

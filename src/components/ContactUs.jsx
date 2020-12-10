@@ -21,7 +21,6 @@ const Img = styled.img`
     width: 70px; 
     height: 70px;
     margin: 30px;
-    // padding: 5px;
 
 `
 

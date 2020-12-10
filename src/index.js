@@ -22,7 +22,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ScrollArrow/>
     <NewHero/>
-    <ComoFunciona/> 
+    {/* <ComoFunciona/>  */}
     <ContactInfo/>
     {/* <Contador/> */}
     {/* <AboutUs/> */}
