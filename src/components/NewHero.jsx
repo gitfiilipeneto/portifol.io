@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Typewriter from 'typewriter-effect'
 
 import logo from "../images/logo-reformulado.png"
 
@@ -110,34 +111,14 @@ const DivAnimation = styled.div`
 const StyledTittle = styled.h1`
 
     font-size: 96px;
-    font-weight: 500;
+    font-weight: 200;
 
-    //animação
-    overflow: hidden; 
-    border-right: 1px solid; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: auto ;
-    animation: 
-      typing 2.5s steps(44, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #4BB8E6; }
-  }
+
 
 
     @media (max-width: 765px){
-        font-size: 50px;
+        font-size: 35px;
+        width: auto;
     }
 `
 
@@ -154,14 +135,22 @@ const StyledText = styled.p`
 `
 
 
+
 const NewHero = () => {
     return(
         <StyledContainer>
             <StyledDiv>
-                <StyledTittle>
-                    portifol.io
-                </StyledTittle>
-                <StyledText>
+            <StyledTittle>
+                <Typewriter
+                    options={{
+                        strings: ['portifol.io'],
+                        autoStart: true,
+                        loop: true,
+                        deleteSpeed: 'natural',
+                    }}
+                />
+            </StyledTittle>
+              <StyledText>
                     Revolucione agora a forma como você monta e contrata equipes!
                 </StyledText>
             </StyledDiv>
