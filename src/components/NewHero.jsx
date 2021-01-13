@@ -135,26 +135,35 @@ const StyledText = styled.p`
 `
 
 
-
 const NewHero = () => {
-    return(
+    return (
         <StyledContainer>
             <StyledDiv>
-            <StyledTittle>
-                <Typewriter
-                    options={{
-                        strings: ['portifol.io'],
-                        autoStart: true,
-                        loop: true,
-                        deleteSpeed: 'natural',
-                    }}
-                />
-            </StyledTittle>
-              <StyledText>
+                <StyledTittle>
+                    <Typewriter
+                        options={{
+
+                            delay:200
+                            
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter.typeString('portfol.io')
+                                .start()
+                                .pauseFor(900)
+
+                                .deleteChars(7)
+                                .changeDelay(110)
+                                .typeString('tifol.io')
+                                
+                        }}
+
+                    />
+                </StyledTittle>
+                <StyledText>
                     Revolucione agora a forma como você monta e contrata equipes!
                 </StyledText>
             </StyledDiv>
-            <HomeImg src = {logo}/>
+            <HomeImg src={logo} />
         </StyledContainer>
     )
 
