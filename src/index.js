@@ -7,11 +7,7 @@ import ReactDOM from 'react-dom';
 
 import ScrollArrow from "./components/ScrollTop"
 import NewHero from './components/NewHero';
-import AboutUs from "./components/AboutUs"
-import RegisterPage from "./components/RegisterPage"
-import ComoFunciona from './components/HowItWorks';
-import Contador from './components/Contador';
-
+import PageCadastro from './components/Cadastro'
 import "./style/Default-style.css"
 import ContactInfo from './components/ContactUs';
 
@@ -24,7 +20,7 @@ ReactDOM.render(
     <NewHero/>
     {/* <ComoFunciona/>  */}
     <ContactInfo/>
-    {/* <Contador/> */}
+    <PageCadastro/>
     {/* <AboutUs/> */}
     {/* <RegisterPage/> */}
     
