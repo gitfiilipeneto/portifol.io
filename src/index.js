@@ -20,6 +20,7 @@ ReactDOM.render(
     <ScrollArrow/>
     <NewHero/>
     {/* <ComoFunciona/>  */}
+    
     <LoginOrRegister/>
     <ContactInfo/>
   
