@@ -11,6 +11,5 @@ justify-content: center;
 align-items: center;
 `
 
-export{
-    Container
-}
+export default Container
+    

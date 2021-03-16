@@ -7,9 +7,10 @@ import ReactDOM from 'react-dom';
 
 import ScrollArrow from "./components/ScrollTop"
 import NewHero from './components/NewHero';
-import PageCadastro from './components/Cadastro'
+
 import "./style/Default-style.css"
 import ContactInfo from './components/ContactUs';
+import LoginOrRegister from './pages/LoginRegisterScreen'
 
 
 
@@ -19,10 +20,12 @@ ReactDOM.render(
     <ScrollArrow/>
     <NewHero/>
     {/* <ComoFunciona/>  */}
+    <LoginOrRegister/>
     <ContactInfo/>
-    <PageCadastro/>
+  
     {/* <AboutUs/> */}
     {/* <RegisterPage/> */}
+
     
     
   </React.StrictMode>,
