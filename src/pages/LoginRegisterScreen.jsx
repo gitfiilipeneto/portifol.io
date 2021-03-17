@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import Container from '../style/DefaultContainer'
+import InputField from '../components/DefaultInputField'
+import DefaultButtonBlue from '../components/DefaultInputField'
 
 const StyledContainer = styled(Container)`
-    background-color: lightblue;
+    // background-color: lightblue;
 
 `
 
@@ -13,6 +15,7 @@ const StyledDiv = styled.div`
     margin: 5px;
     border: 1px black solid;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 `
@@ -21,7 +24,16 @@ const LoginOrRegister = () => {
     return (
         <StyledContainer>
             <StyledDiv>
-                register fields
+                <h3>Registre-se agora</h3>
+                <InputField type="text" placeholder="Nome completo" />
+                <InputField type="text" placeholder="Email" />
+                <InputField type="text" placeholder="Senha" />
+
+            
+                <h4>
+                    Ou Registre-se com:
+                </h4>
+
             </StyledDiv>
 
             <StyledDiv>
