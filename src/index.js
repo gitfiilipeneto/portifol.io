@@ -5,32 +5,34 @@ import ReactDOM from 'react-dom';
 // import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ScrollArrow from "./components/ScrollTop"
-import NewHero from './components/NewHero';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import Home from './pages/HomePage'
 
 import "./style/Default-style.css"
-import ContactInfo from './components/ContactUs';
-import Register from './pages/RegisterScreen'
-import Login from './pages/LoginScreen'
+
+import Login from './pages/LoginScreen';
+import Register from './pages/RegisterScreen';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <ScrollArrow/>
-    <NewHero/>
-    {/* <ComoFunciona/>  */}
-    
-    <Register/>
-    <Login/>
-    <ContactInfo/>
-  
-    {/* <AboutUs/> */}
-    {/* <RegisterPage/> */}
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component ={Home} />
+ 
+        <Route path="/login" component={Login} exact />
+        <Route path="/register" component={Register} exact />
 
-    
-    
+
+        {/* <ComoFunciona/>  */}
+        {/* <AboutUs/> */}
+      </Switch>
+
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

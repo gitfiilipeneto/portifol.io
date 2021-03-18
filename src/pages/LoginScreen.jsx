@@ -21,11 +21,11 @@ const StyledDiv = styled.div`
     justify-content: center;
     align-items: center;
 `
+class Login extends Component{
+    render(){
+        return(
 
-const Login = () => {
-    return (
-
-        <StyledContainer >
+            <StyledContainer >
 
             <StyledDiv>
                 <h4>Faça seu Login</h4>
@@ -44,7 +44,9 @@ const Login = () => {
 
 
             </StyledContainer >
-    )
+        )
+    }
 }
+
 
 export default Login
