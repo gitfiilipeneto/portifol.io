@@ -10,7 +10,8 @@ import NewHero from './components/NewHero';
 
 import "./style/Default-style.css"
 import ContactInfo from './components/ContactUs';
-import LoginOrRegister from './pages/LoginRegisterScreen'
+import Register from './pages/RegisterScreen'
+import Login from './pages/LoginScreen'
 
 
 
@@ -21,7 +22,8 @@ ReactDOM.render(
     <NewHero/>
     {/* <ComoFunciona/>  */}
     
-    <LoginOrRegister/>
+    <Register/>
+    <Login/>
     <ContactInfo/>
   
     {/* <AboutUs/> */}
