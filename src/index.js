@@ -7,31 +7,28 @@ import ReactDOM from 'react-dom';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Home from './pages/HomePage'
 
 import "./style/Default-style.css"
 
+import Home from './pages/HomePage'
 import Login from './pages/LoginScreen';
 import Register from './pages/RegisterScreen';
+import GlobalStyle from './style/GlobalStyleCSSReset';
+import Routes from './pages/routes';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" component ={Home} />
- 
-        <Route path="/login" component={Login} exact />
-        <Route path="/register" component={Register} exact />
+    
+      <BrowserRouter>
+
+      <Routes/>
 
 
-        {/* <ComoFunciona/>  */}
-        {/* <AboutUs/> */}
-      </Switch>
-
-    </BrowserRouter>
+      </BrowserRouter>
+   
 
   </React.StrictMode>,
   document.getElementById('root')
