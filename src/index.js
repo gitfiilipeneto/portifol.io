@@ -5,30 +5,31 @@ import ReactDOM from 'react-dom';
 // import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ScrollArrow from "./components/ScrollTop"
-import NewHero from './components/NewHero';
-import AboutUs from "./components/AboutUs"
-import RegisterPage from "./components/RegisterPage"
-import ComoFunciona from './components/HowItWorks';
-import Contador from './components/Contador';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
 
 import "./style/Default-style.css"
-import ContactInfo from './components/ContactUs';
+
+import Home from './pages/HomePage'
+import Login from './pages/LoginScreen';
+import Register from './pages/RegisterScreen';
+import GlobalStyle from './style/GlobalStyleCSSReset';
+import Routes from './pages/routes';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <ScrollArrow/>
-    <NewHero/>
-    {/* <ComoFunciona/>  */}
-    <ContactInfo/>
-    {/* <Contador/> */}
-    {/* <AboutUs/> */}
-    {/* <RegisterPage/> */}
     
-    
+      <BrowserRouter>
+
+      <Routes/>
+
+
+      </BrowserRouter>
+   
+
   </React.StrictMode>,
   document.getElementById('root')
 );

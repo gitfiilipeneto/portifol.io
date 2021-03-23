@@ -139,6 +139,9 @@ const NewHero = () => {
     return (
         <StyledContainer>
             <StyledDiv>
+                
+                
+
                 <StyledTittle>
                     <Typewriter
                         options={{
@@ -146,6 +149,7 @@ const NewHero = () => {
                             delay:200
                             
                         }}
+                        
                         onInit={(typewriter) => {
                             typewriter.typeString('portfol.io')
                                 .start()
@@ -156,6 +160,7 @@ const NewHero = () => {
                                 .typeString('tifol.io')
                                 
                         }}
+                        
 
                     />
                 </StyledTittle>
