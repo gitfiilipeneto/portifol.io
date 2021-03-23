@@ -9,7 +9,7 @@ import { IconWrapper, StyledFacebook, StyledGithub, StyledLinkedin } from '../su
 const StyledContainer = Container
 
 const StyledDiv = styled.div`
-    width: 40vw;
+    width: auto;
     height: 60vh;
     margin: 5px;
     display:flex;
