@@ -6,15 +6,15 @@ const Button = styled.button`
 width: 205px;
 height: 37px;
 outline: none;
-background-color: ${WHITE};
-color: black;
+background-color: ${BLUE};
+color: white;
 margin: 5px;
 border-radius: 60px;
-border: 2px ${BLUE} solid;
+border: 1px ${BLUE} solid;
 cursor: pointer;
 
 &:hover{
-    background-color: ${BLUE}; 
+    transform: scale(1.1);
     color: white;
 }
 

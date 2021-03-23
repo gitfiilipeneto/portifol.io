@@ -10,7 +10,6 @@ const InputField = styled.input`
     outline: none;
     text-align: center;
     text-decoration: none;
-    background-color: ${WHITE};
     border-radius: 60px;
     border: 2px ${BLUE} solid;
 
