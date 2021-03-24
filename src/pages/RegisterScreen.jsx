@@ -11,7 +11,7 @@ const StyledContainer = Container
 
 const StyledDiv = styled.div`
     width: auto;
-    height: 60vh;
+    // height: 60vh;
     margin: 5px;
     display:flex;
     flex-direction: column;
