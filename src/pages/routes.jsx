@@ -9,6 +9,7 @@ import {
 import Home from '../pages/HomePage'
 import Login from '../pages/LoginScreen';
 import Register from '../pages/RegisterScreen';
+import pageNotFound from "../pages/Page404";
 
 const Routes = () => {
   return (
@@ -16,7 +17,8 @@ const Routes = () => {
 
       <Route path="/" component={Home} exact />
       <Route path="/register" component={Register} exact />
-      <Route path="/login" component={Login}/>
+      <Route path="/login" component={Login} exact/>
+      <Route path="" component={pageNotFound}/>
 
     </Switch>
 
