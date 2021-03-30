@@ -18,7 +18,8 @@ const StyledDiv = styled.div`
     align-items: center;
     & h2{
         font-weight: 300;
-        margin: 10px;
+        margin:unset;
+        
     }
 `
 class Login extends Component {
