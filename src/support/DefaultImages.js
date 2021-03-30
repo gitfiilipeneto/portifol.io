@@ -20,7 +20,7 @@ const IconWrapper = styled.div`
 svg {
     width: 50px;
     height: auto;
-    margin: 0px 12px;
+    margin: 8px 12px;
     
   }
 `

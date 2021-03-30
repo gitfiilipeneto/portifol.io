@@ -21,7 +21,7 @@ import Routes from './pages/routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    
+    <GlobalStyle/>
       <BrowserRouter>
 
       <Routes/>
