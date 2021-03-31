@@ -41,6 +41,7 @@ const ContactInfo = () => {
                 <Img>
                     <StyledInstagram />
                 </Img>
+                
             </a>
 
         </StyledContainer>
