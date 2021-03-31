@@ -2,9 +2,8 @@ import React from 'react'
 
 import styled from 'styled-components'
 
-import linkedin from '../images/linkedin.png'
 
-import instagram from '../images/instagram.png'
+import { StyledLinkedin, StyledInstagram } from '../support/DefaultImages'
 
 const StyledContainer = styled.div`
     width: 100vw;
@@ -16,23 +15,35 @@ const StyledContainer = styled.div`
     flex-direction: row;
 `
 
-const Img = styled.img`
-    background-size: cover; 
-    width: 70px; 
-    height: 70px;
-    margin: 30px;
+const Img = styled.div`
+    /* background-size: cover;  */
+    svg {
+    width: 50px;
+    height: auto;
+    margin: 8px 12px;
+    
+  }
 
 `
 
 const ContactInfo = () => {
-    return(
+    return (
         <StyledContainer>
-            
-            <a href = "https://www.linkedin.com/company/portifol-io/"><Img src = {linkedin} /> </a>
-            
-            <a href = "https://www.instagram.com/portifol.io/"> <Img src = {instagram} /> </a>
 
-        </StyledContainer>            
+
+            <a href="https://www.linkedin.com/company/portifol-io/">
+                <Img>
+                    <StyledLinkedin />
+                </Img>
+            </a>
+
+            <a href="https://www.instagram.com/portifol.io/">
+                <Img>
+                    <StyledInstagram />
+                </Img>
+            </a>
+
+        </StyledContainer>
     )
 }
 
