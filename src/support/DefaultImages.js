@@ -4,6 +4,7 @@ import { BLUE } from '../support/colors'
 import { ReactComponent as Linkedin } from '../images/svgs/linkedin-logo.svg'
 import { ReactComponent as  Github} from '../images/svgs/github-sign.svg'
 import { ReactComponent as Facebook} from '../images/svgs/facebook.svg'
+import { ReactComponent as Instagram } from '../images/svgs/instagram.svg'
 
 const StyledDiv = styled.div`
     width: 40vw;
@@ -43,9 +44,16 @@ const StyledGithub= styled(Github)`
 }
 `
 
+const StyledInstagram= styled(Instagram)`
+&:hover{
+    fill: ${BLUE};
+}
+`
+
 export {
     IconWrapper,
     StyledLinkedin,
     StyledFacebook,
-    StyledGithub
+    StyledGithub,
+    StyledInstagram
 }
