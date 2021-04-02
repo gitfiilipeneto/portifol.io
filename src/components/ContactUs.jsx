@@ -18,7 +18,7 @@ const StyledContainer = styled.div`
 const Img = styled.div`
     /* background-size: cover;  */
     svg {
-    width: 50px;
+    width: 70px;
     height: auto;
     margin: 8px 12px;
     
